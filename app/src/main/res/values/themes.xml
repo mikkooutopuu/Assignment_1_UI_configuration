@@ -1,15 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Assignment_1_UI_Configuration" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
 
     <style name="Theme.Assignment_1_UI_Configuration" parent="Base.Theme.Assignment_1_UI_Configuration" />
-
-    <!-- Theme to make the activity appear as a dialog. -->
     <style name="Theme.Assignment_1_UI_Configuration.Dialog" parent="Theme.AppCompat.Light.Dialog">
-        <item name="android:windowNoTitle">true</item>
-        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">false</item>
+
     </style>
 </resources>

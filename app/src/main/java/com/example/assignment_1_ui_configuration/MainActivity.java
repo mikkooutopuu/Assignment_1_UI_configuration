@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private void logTime(String eventName) {
         long currentTime = System.currentTimeMillis();
         long elapsed = currentTime - lastTime;
-        Log.d(tag, tag + eventName + " - Time Elapsed: " + elapsed + "ms");
+        Log.d(tag, tag + eventName + " - Time elapsed: " + elapsed + "ms");
         lastTime = currentTime;
     }
 
@@ -100,7 +100,6 @@ public class MainActivity extends AppCompatActivity {
         phone.setText("");
         feedback.setText("");
 
-        Toast.makeText(this, "cleared.", Toast.LENGTH_SHORT).show();
     }
 
 

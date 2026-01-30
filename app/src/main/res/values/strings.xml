@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Assignment_1_UI_Configuration</string>
     <string name="text">Greetings!</string>
+    <string name="enter_first_name">Enter first name</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="enter_last_name">Enter last name</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="comments">Comments:</string>
+    <string name="enter_feedback">Enter feedback</string>
+    <string name="reset_form">Reset Form</string>
+    <string name="send_feedback">Send Feedback</string>
 </resources>

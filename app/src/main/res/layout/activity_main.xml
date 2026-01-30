@@ -22,19 +22,19 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="First Name:"
+            android:text="@string/first_name"
             android:textStyle="bold"/>
         <EditText
             android:id="@+id/first_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:hint="Enter first name"/>
+            android:hint="@string/enter_first_name"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Last Name:"
+            android:text="@string/last_name"
             android:layout_marginTop="8dp"
             android:textStyle="bold"/>
         <EditText
@@ -42,12 +42,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:hint="Enter last name"/>
+            android:hint="@string/enter_last_name"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Phone Number:"
+            android:text="@string/phone_number"
             android:layout_marginTop="8dp"
             android:textStyle="bold"/>
         <EditText
@@ -55,12 +55,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="phone"
-            android:hint="Enter phone number"/>
+            android:hint="@string/enter_phone_number"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Comments:"
+            android:text="@string/comments"
             android:layout_marginTop="16dp"
             android:textStyle="bold"/>
         <EditText
@@ -70,7 +70,7 @@
             android:minLines="4"
             android:gravity="top|start"
             android:inputType="textMultiLine"
-            android:hint="Enter feedback"/>
+            android:hint="@string/enter_feedback"/>
 
         <!-- Buttons -->
         <LinearLayout
@@ -85,7 +85,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginEnd="8dp"
-                android:text="Reset Form"/>
+                android:text="@string/reset_form"/>
 
             <Button
                 android:id="@+id/send_button"
@@ -93,7 +93,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginStart="8dp"
-                android:text="Send Feedback"/>
+                android:text="@string/send_feedback"/>
 
         </LinearLayout>
     </LinearLayout>
