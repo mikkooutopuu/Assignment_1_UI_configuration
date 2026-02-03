@@ -2,7 +2,8 @@
 
     <style name="Theme.Assignment_1_UI_Configuration" parent="Base.Theme.Assignment_1_UI_Configuration" />
     <style name="Theme.Assignment_1_UI_Configuration.Dialog" parent="Theme.AppCompat.Light.Dialog">
-        <item name="android:windowNoTitle">false</item>
-
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
     </style>
 </resources>
